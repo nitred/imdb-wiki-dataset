@@ -1,0 +1,10 @@
+name: imdb-wiki-dataset
+channels:
+  - defaults
+dependencies:
+- python=3.6.4
+- pip:
+  - future
+  - twine
+  - m2r
+  - -r requirements.txt
